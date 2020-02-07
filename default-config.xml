@@ -63,9 +63,9 @@
                         <property name="addresses">
                             <list>
                                 <!-- In distributed environment, replace with actual host IP address. -->
-                                <value>192.168.18.49:4900</value>
-                                <value>192.168.18.49:4901</value>
-                                <value>192.168.18.49:4902</value>
+                                <value>0.0.0.0:4900</value>
+                                <value>0.0.0.0:4901</value>
+                                <value>0.0.0.0:4902</value>
                             </list>
                         </property>
                     </bean>
