@@ -36,7 +36,7 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="ignite.cfg" class="org.apache.ignite.configuration.IgniteConfiguration">
+    <bean id="ignite.cfg" class="org.apache.ignite.configuraion.IgniteConfiguration">
         <property name="cacheConfiguration">
             <list>
                 <!-- Partitioned cache example configuration (Atomic mode). -->
@@ -63,7 +63,8 @@
                         <property name="addresses">
                             <list>
                                 <!-- In distributed environment, replace with actual host IP address. -->
-                               <value>127.0.0.1:49500..49504</value>
+                               <value>127.0.0.1:47500..47509</value>
+                                <value>192.168.18.2:47500..47509</value>
                             </list>
                         </property>
                     </bean>
